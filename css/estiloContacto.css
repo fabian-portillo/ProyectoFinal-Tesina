@@ -1,0 +1,94 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+* {
+  margin:0;
+  padding:0;
+}
+
+body {
+  font-family: verdana, geneva, serif;
+}
+
+/** **/
+form {
+    width: 450px;
+    margin: auto;
+    background:#E5E7E9;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    bottom: -100px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton{
+    background:#fe4918;
+    color: #fff;
+    padding: 20px;
+    font-size: 25px;
+}
+
+#boton:hover {
+    cursor: pointer;
+}
+
+@media (max-width:480px) {
+    form{
+        width: 100%;
+    }
+}
+
+h4 {
+    text-align: center;
+    color:#ffffff;
+    font-size: 30px;
+    background:#fe4918;
+}
+
+.ubicacion {
+  border: 1px solid #ccc;
+  padding: 0 1rem;
+  margin: 1rem;
+}
+
+.redes-sociales {
+    display: inline; /* the default for span */
+    width: 40px;
+    height: 10px;
+    padding: 150px;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-left: 15px;
+}
+
+div.datos-contacto {
+  padding-bottom: -15px;
+  height: 80px;
+  border:1px solid white;
+}
+
+div.datos-contacto p.email,p.tel {
+  font-size: 25px;
+  color: white;
+  font-style:bold;
+  text-align: center;
+}
